@@ -1,0 +1,10 @@
+[package]
+name = 'RareOGNFT'
+version = '1.0.0'
+
+[addresses]
+OGFensNFT = "523fdc336019440410e087aae6332ca1ce8ed927adb2c00f0c488bb71ab5b918"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev="devnet"}
+AptosToken = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-token/", rev="devnet"}
